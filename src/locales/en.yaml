@@ -1,0 +1,44 @@
+message: hello i18n !!
+Home: Home
+Language: Language
+title: Vue
+menu:
+  top:
+    home: Home
+    systemManage: System Management
+  side:
+    systemManage: Menu management
+    category: Data Dictionary
+    auth: authority management
+    process: Process settings
+    systemLog: System log
+  foldTitle: Collapse menu
+common:
+  page404:
+    info: >-
+      Please check if the URL you entered is correct, please click the button below to return to the homepage or send an error report
+    return: Back to Home
+    headline: Page not found
+  error:
+    type_1: Redirection error
+    type_2: No access
+    type_3: Page does not exist
+    type_4: Request error
+    type_5: Server Error
+    back: Back
+  logout:
+    prefixText: 'The system has successfully exited, click'
+    link: Continue to visit
+views:
+  system:
+    process:
+      addMember:
+        label_1: Originator
+      index:
+        tab_1: Originator
+        tab_2: Process definition
+    menus:
+      index:
+        title: System menu
+        btn_1: Added first level menu
+        btn_2: Flush cache

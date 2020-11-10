@@ -1,0 +1,43 @@
+title: Vue
+message: 你好，国际化！
+Home: 首页
+Language: 切换语言
+menu:
+  top:
+    home: 首页
+    systemManage: 系统管理
+  side:
+    systemManage: 菜单管理
+    category: 数据字典
+    auth: 权限管理
+    process: 流程设置
+    systemLog: 系统日志
+  foldTitle: 折叠菜单
+common:
+  page404:
+    info: 请检查您输入的网址是否正确，请点击以下按钮返回主页或者发送错误报告
+    return: 返回首页
+    headline: 页面未找到
+  error:
+    type_1: 重定向错误
+    type_2: 无权限访问
+    type_3: 页面不存在
+    type_4: 请求错误
+    type_5: 服务器错误
+    back: 返 回
+  logout:
+    prefixText: 系统已成功退出，点击
+    link: 继续访问
+views:
+  system:
+    process:
+      addMember:
+        label_1: 发起对象
+      index:
+        tab_1: 发起对象
+        tab_2: 流程定义
+    menus:
+      index:
+        title: 系统菜单
+        btn_1: 新增一级菜单
+        btn_2: 刷新缓存

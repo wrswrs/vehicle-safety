@@ -1,0 +1,8 @@
+@import './theme.scss';
+@import './mixin.scss';
+@import './layout.scss';
+
+/*************layout变量***************/
+$--height-header: 60px; /* header 高度 */
+$--width-sidebar: 250px; /* sidebar 宽度 */
+$--width-sidebar-mix: 65px; /* sidebar 收起时的宽度 */

@@ -1,0 +1,35 @@
+{
+  "stylelint.additionalDocumentSelectors": ["vue"],
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "printWidth": 150, //Vue Tempelate格式化配置
+      "tabWidth": 4,
+      "useTabs": false,
+      "semi": false,
+      "singleQuote": false,
+      "wrapAttributes": true
+      // "sortAttributes": true
+    }
+  },
+  "vetur.experimental.templateInterpolationService": true,
+  "prettier.eslintIntegration": true, //让prettier使用eslint的代码格式进行校验
+  "editor.formatOnSave": true, //保存自动格式化
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true //保存自动eslint修复
+  },
+  "i18n-ally.localesPaths": "src/locales",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sourceLanguage": "zh-CN",
+  "i18n-ally.displayLanguage": "zh-CN",
+  "i18n-ally.sortedKeys": true,
+  "i18n-ally.keepFulfilled": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.packageManager": "pnpm",
+  "cSpell.words": [
+    "nprogress",
+    "vuex"
+  ]
+}
